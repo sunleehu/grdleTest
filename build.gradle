@@ -28,6 +28,11 @@ dependencies {
     classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2")
 }
 */
+buildscript{
+    dependencies {
+        classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2")
+    }
+}
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
